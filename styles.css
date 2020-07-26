@@ -1,0 +1,120 @@
+.container-fluid{
+    text-align: center;
+    padding: 1% 7%;
+    background-color: hsl(0, 0%, 100%);
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+}
+
+.section-headings{
+    text-align: left;
+    color: hsl(230, 17%, 14%);
+    font-weight: 700;
+}
+
+ .dark-mode{
+    position: absolute;
+    left: 80%;
+    top: 50px;
+}
+
+.crd{
+    margin: 15px 10px 20px 15px;
+    border-top-width: 4px;
+    width: 15rem;
+    background-color: hsl(227, 47%, 96%);
+    font-weight: 400;
+}
+
+.fb{
+    border-top-color:  hsl(208, 92%, 53%);
+}
+
+.tweet{
+    border-top-color:  hsl(203, 89%, 53%);
+}
+
+.youtb{
+    border-top-color:hsl(348, 97%, 39%);
+}
+
+.insta{
+    background: linear-gradient(to right,hsl(37, 97%, 70%) 30%, hsl(329, 70%, 58%) );
+    border-left-color:rgb(233, 224, 224);
+    border-bottom-color: rgb(233, 224, 224);
+    border-right-color: rgb(233, 224, 224);
+}
+
+.inner{
+    background: hsl(227, 47%, 96%);
+}
+
+.inc{
+    color: hsl(163, 72%, 41%); 
+}
+
+.dec{
+    color: hsl(356, 69%, 56%);
+}
+
+.h4-head{
+    color: hsl(228, 12%, 44%);
+}
+
+img{
+    margin: 3px;
+}
+
+#Overview .crd{
+ text-align: left;
+ line-height: 3;
+}
+
+.logo{
+    float: right;
+    margin-top: 12px;
+}
+
+
+#Overview .inc,#Overview .dec{
+    float: right;
+}
+
+.up-down{
+    float: right;
+    margin-top: 20px;
+}
+
+p{
+    color: hsl(228, 12%, 44%);
+}
+
+@media (max-width: 1000px){
+    .crd{
+        width: 100%;
+    }
+}
+
+span{
+    font-weight: bolder;
+}
+
+.dark{
+    background-color: hsl(230, 17%, 14%);
+    color: hsl(0, 0%, 100%);
+}
+
+.dark1{
+    background-color: hsl(228, 28%, 20%);
+    border-left-color: hsl(230, 17%, 14%);
+    border-bottom-color:  hsl(230, 17%, 14%);
+    border-right-color:  hsl(230, 17%, 14%);
+}
+
+.dark-p{
+    color: hsl(228, 34%, 66%);
+}
+
+.dark-btn{
+    background-color: linear-gradient(hsl(210, 78%, 56%), hsl(146, 68%, 55%));
+}
